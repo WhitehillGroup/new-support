@@ -10,8 +10,32 @@ start:
 branding:
   title: Whitehill Support
 
+links:
+  - text: Axon
+    link: https://axon.whitehill.group
+    icon: desktop-download
+    target: blank
+
+  - text: Discord Server
+    link: https://discord.whitehill.group
+    icon: comment-discussion
+    target: blank
+
 edit:
   repo: "https://github.com/WhitehillGroup/new-support/edit/"
 
+meta:
+  title: " | Whitehill Support"
+
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
+  links:
+    - text: Service Status
+      link: https://status.whitehill.group
+      icon: meter
+      target: blank
+
+    - text: Contribute
+      link: https://github.com/WhitehillGroup/support
+      icon: mark-github

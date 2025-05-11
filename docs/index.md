@@ -1,3 +1,6 @@
+---
+icon: sparkles-fill
+---
 # :icon-sparkles-fill: Welcome!
 
 !!!

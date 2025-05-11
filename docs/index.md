@@ -1,7 +1,8 @@
 ---
 icon: sparkles-fill
+label: Welcome!
 ---
-# :icon-sparkles-fill: Welcome!
+# Welcome to Whitehill Support!
 
 !!!
 Our new support site is currently under development — thank you for your patience.

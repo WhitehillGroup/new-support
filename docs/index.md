@@ -1,3 +1,9 @@
-# Welcome!
+# Welcome to Whitehill Support!
+---
+label: :icon-sparkles-fill: Welcome!
 
-Welcome to the new Whitehill Support site.
+!!!
+Our new support site is currently under development — thank you for your patience.
+!!!
+
+"Here, you'll find product documentation, troubleshooting steps, and frequently asked questions. To get started, select a page from the list on the left.

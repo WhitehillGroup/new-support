@@ -24,5 +24,5 @@ For more information visit [create.roblox.com](https://create.roblox.com/docs/st
 3. Configure your ATM terminals. They work out of the box, but we recommend reviewing the configuration file located at _JSM | ATM V3 > SystemConfig_.
 
 !!!success Installation Complete!
-Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](faq.md) for help.
+Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](/faq.md) for help.
 !!!

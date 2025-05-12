@@ -32,5 +32,5 @@ To do this, simply duplicate the doors using _Ctrl + D_ to ensure they stay with
 3. Configure your doors. They work out of the box, but we recommend reviewing the configuration file located at _AutoPro v2 > Settings_ to ensure they function as intended and have the correct whitelist settings.
 
 !!!success Installation Complete!
-Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](faq.md) for help.
+Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](/faq.md) for help.
 !!!

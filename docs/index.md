@@ -5,7 +5,7 @@ order: 100
 ---
 # Welcome to Whitehill Support!
 
-!!!
+!!!warning
 Our new support site is currently under development — thank you for your patience.
 !!!
 

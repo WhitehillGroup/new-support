@@ -1,7 +1,7 @@
 ---
 icon: sparkles-fill
 label: Welcome!
-order: 3
+order: 1
 ---
 # Welcome to Whitehill Support!
 

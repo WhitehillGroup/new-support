@@ -12,7 +12,7 @@ Our user-friendly dashboard makes it easy to purchase and download all of our pr
 ==- Can I purchase products directly without using Robux?
 Yes! Please use [Axon](https://axon.whitehill.group).
 ==- Do you provide product transfers?
-We've introduced product transfers through Axon, giving you greater control over how and where you use your products.
+We've introduced product transfers through [Axon](https://axon.whitehill.group), giving you greater control over how and where you use your products.
 ==- Can I join your support team?
 We don’t frequently hire new support team members, as our current team is often able to manage the volume of tickets. While we occasionally post applications, we typically hand-select new team members. Keep an eye out for any openings we may announce.
 ==- Why are my products becoming unanchored once rotated in-game?
@@ -27,6 +27,7 @@ We provide an example item with each of our products; however, it's up to you to
 ==- Why am I getting kicked with the message "DWPSS has detected you are using counterfeit products"?
 There are 2 reasons this may be happening:
 1. You are using a version of DWProx Net2+, SCO v3 or Scan & Shop that was released prior to 26/01/24. You should update your Net2, SCO v3 and Scan & Shop with the latest versions from [Axon](https://axon.whitehill.group) to resolve the issue. Please see [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our [Discord server](https://discord.whitehill.group/) for more detailed update instructions.
+2. You have tampered with your product - if you have done this and triggered DWPSS, please open a support ticket.
 ===
 
 Question not answered? Visit the support page for the product you're having trouble with, or contact our support team via our [Discord server](https://discord.whitehill.group/).

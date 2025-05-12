@@ -16,7 +16,7 @@ Ensure HTTP services are enabled before proceeding.
 This can be done by visiting _Home > Game Settings > Security_ within Studio.
 For more information visit [create.roblox.com](https://create.roblox.com/docs/studio/game-settings#security)
 !!!
-
+S
 1. To insert your file, drag the product file into Roblox Studio while your game is fully loaded. Alternatively, you can use the Explorer context menu: right-click and select _Insert > Insert From File_.
 
 2. Place and position your ATM terminals, ensuring all of them remain located within the _JSM | ATM V3 > Terminals_ folder.

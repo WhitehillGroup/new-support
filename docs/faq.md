@@ -21,7 +21,7 @@ Yes! Please use [Axon](https://axon.whitehill.group).
 ==- Do you provide product transfers?
 We've introduced product transfers through [Axon](https://axon.whitehill.group), giving you greater control over how and where you use your products.
 ==- Can I join your support team?
-We don’t frequently hire new support team members, as our current team is often able to manage the volume of tickets. While we occasionally post applications, we typically hand-select new team members. Keep an eye out for any openings we may announce.
+We don’t frequently hire new support team members, as our current team is often able to manage the volume of tickets. While we occasionally post applications, we typically hand-select new team members. Keep an eye out for any openings we may announce.S
 ==- Why are my products becoming unanchored once rotated in-game?
 If you're using the F3X plugin in Studio, please avoid it when working with our products, as it tends to break welds. If you're using Studio's standard rotation tools, make sure to select everything within the product's group to prevent welds from being automatically removed.
 ==- Why are my products saying that HTTP Service is not enabled, even though it is?

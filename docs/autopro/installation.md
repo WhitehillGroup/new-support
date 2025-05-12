@@ -33,4 +33,4 @@ To do this, simply duplicate the doors using _Ctrl + D_ to ensure they stay with
 
 !!!success Installation Complete!
 Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](/faq.md) for help.
-!!!S
+!!!

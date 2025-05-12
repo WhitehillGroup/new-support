@@ -3,7 +3,7 @@ icon: download
 label: Installation
 authors: 
     - name: cbgle
-      email: rhys@whitehill.group
+      link: https://github.com/cbgle
       avatar: https://avatars.githubusercontent.com/u/126525625
 ---
 # AutoPro Installation

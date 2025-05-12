@@ -2,6 +2,13 @@
 icon: info
 label: FAQ
 order: 99
+authors: 
+    - name: cbgle
+      link: https://github.com/cbgle
+      avatar: https://avatars.githubusercontent.com/u/126525625
+    - name: TheCakeChicken
+      link: https://github.com/TheCakeChicken
+      avatar: https://avatars.githubusercontent.com/u/33702174
 ---
 # Frequently Asked Questions
 

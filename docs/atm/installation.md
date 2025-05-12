@@ -1,7 +1,10 @@
 ---
 icon: download
 label: Installation
-authors: [rhys@whitehill.group]
+authors: 
+    - name: c_bgle
+      email: rhys@whitehill.group
+      avatar: https://avatars.githubusercontent.com/u/126525625
 ---
 # SelfServ ATM Installation
 

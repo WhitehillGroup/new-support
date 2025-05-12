@@ -1,6 +1,7 @@
 ---
 icon: download
 label: Installation
+authors: [rhys@whitehill.group]
 ---
 # SelfServ ATM Installation
 

@@ -1,3 +1,4 @@
+---
 icon: download
 label: Installation
 authors: 

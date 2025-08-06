@@ -8,9 +8,6 @@ authors:
 ---
 # Drinks Machines Installation
 
-!!!light 
-Currently only a Coca Cola styled machine is available. We will be releasing updates to this as well as new machines over time. Thank you for your patience.
-!!!
 !!!
 Before getting started, download the latest version of this product from [Axon](https://axon.whitehill.group).
 !!!

@@ -1,14 +1,11 @@
 input: ./docs
 output: .retype
 
-url: new-support.whitehill.group # Use your website address here
-
-start:
-  # Uncomment the next line to try Retype Pro features
-  # pro: true
+url: new-support.whitehill.group
 
 branding:
   title: Whitehill Support
+  label: NEW
 
 links:
   - text: Axon
@@ -39,3 +36,14 @@ footer:
     - text: Contribute
       link: https://github.com/WhitehillGroup/support
       icon: mark-github
+      target: blank
+
+    - text: Axon
+      link: https://axon.whitehill.group/
+      icon: package
+      target: blank
+
+    - text: Discord
+      link: https://discord.whitehill.group/
+      icon: comment-discussion
+      target: blank

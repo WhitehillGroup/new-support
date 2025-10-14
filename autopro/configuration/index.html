@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813790882017">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813793924860">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,12 +32,12 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.813790882017" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.813793924860" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813790882017" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813793924860" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813790882017" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.813790882017" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813793924860" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.813793924860" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -295,19 +295,25 @@ local Settings = {
 return Settings</code></pre>
 </doc-codeblock></div>
 <doc-anchor-target id="syntax">
-    <h3>
+    <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#syntax">#</doc-anchor-trigger>
         <span>Syntax</span>
-    </h3>
+    </h1>
 </doc-anchor-target>
 <doc-anchor-target id="general">
-    <h4>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#general">#</doc-anchor-trigger>
         <span>General</span>
-    </h4>
+    </h2>
 </doc-anchor-target>
-<doc-panel id="startupmode--normal--hold--exit--lock">
-    <template #title>StartupMode : <code v-pre>&quot;Normal&quot; | &quot;Hold&quot; | &quot;Exit&quot; | &quot;Lock&quot;</code></template>
+<doc-anchor-target id="startupmode">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#startupmode">#</doc-anchor-trigger>
+        <span>StartupMode</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="normal--hold--exit--lock">
+    <template #title><code v-pre>&quot;Normal&quot; | &quot;Hold&quot; | &quot;Exit&quot; | &quot;Lock&quot;</code></template>
 <p>This will be the default mode of the doors upon game start.</p>
 <p>What do these mean?</p>
 <ul>
@@ -339,8 +345,14 @@ return Settings</code></pre>
     </div>
 </div>
 </doc-panel>
-<doc-panel id="opentime--number">
-    <template #title>OpenTime : <code v-pre>number</code></template>
+<doc-anchor-target id="opentime">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#opentime">#</doc-anchor-trigger>
+        <span>OpenTime</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="number">
+    <template #title><code v-pre>number</code></template>
 <p>Defines how long the door will stay open after opening, after this delay, the door will close.</p>
 <hr>
 <p>Example:</p>
@@ -350,13 +362,19 @@ return Settings</code></pre>
 </doc-panel>
 <hr>
 <doc-anchor-target id="sliding-doors">
-    <h4>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sliding-doors">#</doc-anchor-trigger>
         <span>Sliding Doors</span>
-    </h4>
+    </h2>
 </doc-anchor-target>
-<doc-panel id="movementtime--number">
-    <template #title>MovementTime : <code v-pre>number</code></template>
+<doc-anchor-target id="movementtime">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#movementtime">#</doc-anchor-trigger>
+        <span>MovementTime</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="number">
+    <template #title><code v-pre>number</code></template>
 <p>How long will the door take to open/close when <strong>winter mode</strong> is <strong>disabled</strong>.</p>
 <hr>
 <p>Example:</p>
@@ -364,8 +382,8 @@ return Settings</code></pre>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">[&quot;Slide - MovementTime&quot;] = 1</code></pre>
 </doc-codeblock></div>
 </doc-panel>
-<doc-panel id="wintermovementtime--number">
-    <template #title>WinterMovementTime : <code v-pre>number</code></template>
+<doc-panel id="number">
+    <template #title><code v-pre>number</code></template>
 <p>How long will the door take to open/close when <strong>winter mode</strong> is <strong>enabled</strong>.</p>
 <hr>
 <p>Example:</p>
@@ -373,8 +391,14 @@ return Settings</code></pre>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">[&quot;Slide - WinterMovementTime&quot;] = 1.25</code></pre>
 </doc-codeblock></div>
 </doc-panel>
-<doc-panel id="dooreasingstyle--enumeasingstyle">
-    <template #title>DoorEasingStyle : <code v-pre>Enum.EasingStyle</code></template>
+<doc-anchor-target id="dooreasingstyle">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dooreasingstyle">#</doc-anchor-trigger>
+        <span>DoorEasingStyle</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="enumeasingstyle">
+    <template #title><code v-pre>Enum.EasingStyle</code></template>
 <p>The <a href="https://create.roblox.com/docs/reference/engine/enums/EasingStyle">Easing Style</a> to apply to the door during movement.</p>
 <hr>
 <p>Example:</p>
@@ -399,8 +423,14 @@ return Settings</code></pre>
     </div>
 </div>
 </doc-panel>
-<doc-panel id="dooreasingdirection--enumeasingdirection">
-    <template #title>DoorEasingDirection : <code v-pre>Enum.EasingDirection</code></template>
+<doc-anchor-target id="dooreasingdirection">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dooreasingdirection">#</doc-anchor-trigger>
+        <span>DoorEasingDirection</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="enumeasingdirection">
+    <template #title><code v-pre>Enum.EasingDirection</code></template>
 <p>The <a href="https://create.roblox.com/docs/reference/engine/enums/EasingDirection">Easing Style</a> to apply to the door during movement.</p>
 <hr>
 <p>Example:</p>
@@ -410,23 +440,35 @@ return Settings</code></pre>
 </doc-panel>
 <hr>
 <doc-anchor-target id="swing-doors">
-    <h4>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#swing-doors">#</doc-anchor-trigger>
         <span>Swing Doors</span>
-    </h4>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="targetangle">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#targetangle">#</doc-anchor-trigger>
+        <span>TargetAngle</span>
+    </h3>
 </doc-anchor-target>
 <doc-panels>
-   <doc-panel id="targetangle--number">
-       <template #title>TargetAngle : <code v-pre>number</code></template>
+   <doc-panel id="number">
+       <template #title><code v-pre>number</code></template>
 <p>How far will the door open in degrees from its default position.</p>
 <hr>
 <p>Example:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">[&quot;Swing - TargetAngle&quot;] = 95</code></pre>
 </doc-codeblock></div>
+<doc-anchor-target id="openingdoorspeed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#openingdoorspeed">#</doc-anchor-trigger>
+        <span>OpeningDoorSpeed</span>
+    </h3>
+</doc-anchor-target>
    </doc-panel>
-   <doc-panel id="openingdoorspeed-number">
-       <template #title>OpeningDoorSpeed: <code v-pre>number</code></template>
+   <doc-panel id="number">
+       <template #title><code v-pre>number</code></template>
 <p>How long will the door take to open fully.</p>
 <hr>
 <p>Example:</p>
@@ -435,8 +477,14 @@ return Settings</code></pre>
 </doc-codeblock></div>
    </doc-panel>
 </doc-panels>
-<doc-panel id="closingdoorspeed-number">
-    <template #title>ClosingDoorSpeed: <code v-pre>number</code></template>
+<doc-anchor-target id="closingdoorspeed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#closingdoorspeed">#</doc-anchor-trigger>
+        <span>ClosingDoorSpeed</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="number">
+    <template #title><code v-pre>number</code></template>
 <p>How long will the door take to close fully.</p>
 <hr>
 <p>Example:</p>
@@ -446,10 +494,10 @@ return Settings</code></pre>
 </doc-panel>
 <hr>
 <doc-anchor-target id="custom-functions">
-    <h4>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#custom-functions">#</doc-anchor-trigger>
         <span>Custom Functions</span>
-    </h4>
+    </h2>
 </doc-anchor-target>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
@@ -468,8 +516,14 @@ return Settings</code></pre>
         </div>
     </div>
 </div>
-<doc-panel id="open-----">
-    <template #title>Open : <code v-pre>() -&gt; ()</code></template>
+<doc-anchor-target id="open">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#open">#</doc-anchor-trigger>
+        <span>Open</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="---">
+    <template #title><code v-pre>() -&gt; ()</code></template>
 <p>In this function you put <strong>your own</strong> additional functionality to happen when the door <strong>opens</strong>.</p>
 <hr>
 <p>Example:</p>
@@ -481,8 +535,14 @@ return Settings</code></pre>
 end</code></pre>
 </doc-codeblock></div>
 </doc-panel>
-<doc-panel id="close-----">
-    <template #title>Close : <code v-pre>() -&gt; ()</code></template>
+<doc-anchor-target id="close">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#close">#</doc-anchor-trigger>
+        <span>Close</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="---">
+    <template #title><code v-pre>() -&gt; ()</code></template>
 <p>In this function you put <strong>your own</strong> additional functionality to happen when the door <strong>closes</strong>.</p>
 <hr>
 <p>Example:</p>
@@ -496,13 +556,19 @@ end</code></pre>
 </doc-panel>
 <hr>
 <doc-anchor-target id="whitelisting">
-    <h4>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#whitelisting">#</doc-anchor-trigger>
         <span>Whitelisting</span>
-    </h4>
+    </h2>
 </doc-anchor-target>
-<doc-panel id="authorisedpeople---number-">
-    <template #title>AuthorisedPeople : <code v-pre>{ number }</code></template>
+<doc-anchor-target id="authorisedpeople">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#authorisedpeople">#</doc-anchor-trigger>
+        <span>AuthorisedPeople</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="-number-">
+    <template #title><code v-pre>{ number }</code></template>
 <p>A list of <a href="https://create.roblox.com/docs/reference/engine/classes/Player#UserId">User IDs</a> to allow the use of the controller.</p>
 <hr>
 <p>Example:</p>
@@ -529,8 +595,14 @@ end</code></pre>
     </div>
 </div>
 </doc-panel>
-<doc-panel id="authorisedgroups---string--number--">
-    <template #title>AuthorisedGroups : <code v-pre>{ [string]: { number } }</code></template>
+<doc-anchor-target id="authorisedgroups">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#authorisedgroups">#</doc-anchor-trigger>
+        <span>AuthorisedGroups</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="-string--number--">
+    <template #title><code v-pre>{ [string]: { number } }</code></template>
 <p>A dictionary of Community IDs (formerly Group IDs), and their selected Rank IDs, to allow the use of the controller.</p>
 <hr>
 <p>Example:</p>
@@ -557,10 +629,10 @@ end</code></pre>
 </div>
 </doc-panel>
 <doc-anchor-target id="finalizing">
-    <h3>
+    <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#finalizing">#</doc-anchor-trigger>
         <span>Finalizing</span>
-    </h3>
+    </h1>
 </doc-anchor-target>
 <p>Now, using the examples provided, a complete module will look as follows:</p>
 <div class="codeblock-wrapper"><doc-codeblock>

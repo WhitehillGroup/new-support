@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813790882017">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813793924860">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,12 +32,12 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.813790882017" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.813793924860" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813790882017" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.813793924860" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813790882017" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.813790882017" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.813793924860" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.813793924860" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -270,13 +270,19 @@ local Settings = {
 return Settings</code></pre>
 </doc-codeblock></div>
 <doc-anchor-target id="syntax">
-    <h3>
+    <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#syntax">#</doc-anchor-trigger>
         <span>Syntax</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="currency">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#currency">#</doc-anchor-trigger>
+        <span>Currency</span>
     </h3>
 </doc-anchor-target>
-<doc-panel id="currency--string">
-    <template #title>Currency : <code v-pre>string</code></template>
+<doc-panel id="string">
+    <template #title><code v-pre>string</code></template>
 <p>The specified character will be used as a prefix to all monetary values wherever a price is indicated.</p>
 <hr>
 <p>Example:</p>
@@ -301,8 +307,14 @@ return Settings</code></pre>
     </div>
 </div>
 </doc-panel>
-<doc-panel id="atmcharge--number">
-    <template #title>ATMCharge : <code v-pre>number?</code></template>
+<doc-anchor-target id="atmcharge">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#atmcharge">#</doc-anchor-trigger>
+        <span>ATMCharge</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="number">
+    <template #title><code v-pre>number?</code></template>
 <p>This will be the amount that the ATM will charge for withdrawals. Set to <code v-pre>nil</code> to disable the fee.</p>
 <hr>
 <p>Example:</p>
@@ -335,8 +347,14 @@ return Settings</code></pre>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">[&quot;CardFlash&quot;] = false,</code></pre>
 </doc-codeblock></div>
 </doc-panel>
-<doc-panel id="securitytimeout--number">
-    <template #title>SecurityTimeout : <code v-pre>number</code></template>
+<doc-anchor-target id="securitytimeout">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#securitytimeout">#</doc-anchor-trigger>
+        <span>SecurityTimeout</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="number">
+    <template #title><code v-pre>number</code></template>
 <p>Any number given will be the time required for the ATM to classify the interaction as <em>&quot;Inactive&quot;</em> and terminate it automatically.</p>
 <hr>
 <p>Example:</p>
@@ -344,8 +362,14 @@ return Settings</code></pre>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">[&quot;SecurityTimeout&quot;] = 16,</code></pre>
 </doc-codeblock></div>
 </doc-panel>
-<doc-panel id="images---string--string--">
-    <template #title>Images : <code v-pre>{ [string]: { string } }</code></template>
+<doc-anchor-target id="images">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#images">#</doc-anchor-trigger>
+        <span>Images</span>
+    </h3>
+</doc-anchor-target>
+<doc-panel id="-string--string--">
+    <template #title><code v-pre>{ [string]: { string } }</code></template>
 <p>A dictionary of banknote image asset IDs, used to visually represent the cash denominations dispensed by the ATM.<br />
 Each entry corresponds to a denomination (e.g. £10, £20, £50), and contains a pair of Roblox asset IDs representing the <strong>front</strong> and <strong>back</strong> of the note.</p>
 <hr>
@@ -375,10 +399,10 @@ Each entry corresponds to a denomination (e.g. £10, £20, £50), and contains a
 </div>
 </doc-panel>
 <doc-anchor-target id="finalizing">
-    <h3>
+    <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#finalizing">#</doc-anchor-trigger>
         <span>Finalizing</span>
-    </h3>
+    </h1>
 </doc-anchor-target>
 <p>Now, using the examples provided, a complete module will look as follows:</p>
 <div class="codeblock-wrapper"><doc-codeblock>

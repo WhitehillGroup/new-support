@@ -1,15 +1,15 @@
 ---
-icon: check-circle
-label: Updating
-order: 90
-#tags: [Updating]
+icon: download
+label: Installation
+order: 100
+#tags: [Installation]
 image: /assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
 ---
-# Updating RetailPOS Mainbanks
+# RetailPOS Mainbanks Flex
 
 ![](/assets/headbanners/whg_notyet.png)
 

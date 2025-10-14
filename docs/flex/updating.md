@@ -9,7 +9,7 @@ authors:
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
 ---
-# Updating RetailPOS Mainbanks
+# Updating RetailPOS Flex
 
 ![](/assets/headbanners/whg_notyet.png)
 

@@ -10,8 +10,19 @@ authors:
       avatar: https://avatars.githubusercontent.com/u/8365663
 ---
 # CafePOS Lite Installation
-!!!warning
-This product is no longer available or supported. The information provided here may be incomplete or outdated. Please do not contact support regarding this product, as we no longer offer in-depth assistance for it.
+
+![](/assets/banners/whg_cafeposliteinstall.png)
+
+!!!danger Important Notice
+This product has been discontinued and is no longer supported. The information provided may be incomplete or outdated. Please refrain from contacting support regarding this product, as dedicated assistance is no longer available.
 !!!
 
-[!embed allowFullScreen="false" text="Setup Tutorial"](https://www.youtube.com/embed/t0c9IcMBF74?si=QsAEuvJA1Xcy1glr)
+---
+
+[!embed allowFullScreen="false"](https://www.youtube.com/embed/t0c9IcMBF74?si=QsAEuvJA1Xcy1glr)
+
+---
+
+!!!ghost That's all we have.
+We searched far in our archives, but this is all we got for this discontinued product.
+!!!

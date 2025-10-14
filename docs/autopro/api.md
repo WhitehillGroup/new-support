@@ -23,7 +23,7 @@ AutoPro is our most advanced automatic door system designed for convenience and 
 
 Located directly in the root folder after **game startup**, the API allows you to interface easily with the doors.
 
-### Syntax
+## Syntax
 
 ```lua
 workspace["AutoPro v2"]:WaitForChild("API"):Invoke(Protocol, Event)

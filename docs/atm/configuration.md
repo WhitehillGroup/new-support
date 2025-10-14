@@ -51,9 +51,10 @@ local Settings = {
 return Settings
 ```
 
-### Syntax
+# Syntax
 
-=== Currency : `string`
+### Currency
+=== `string`
 The specified character will be used as a prefix to all monetary values wherever a price is indicated.
 
 ---
@@ -68,7 +69,8 @@ Please be advised that this setting is purely cosmetic and does not involve any 
 !!!
 ===
 
-=== ATMCharge : `number?` 
+### ATMCharge
+=== `number?` 
 This will be the amount that the ATM will charge for withdrawals. Set to `nil` to disable the fee.
 
 ---
@@ -94,7 +96,8 @@ Example:
 ```
 ===
 
-=== SecurityTimeout : `number`
+### SecurityTimeout
+=== `number`
 Any number given will be the time required for the ATM to classify the interaction as _"Inactive"_ and terminate it automatically.
 
 ---
@@ -105,7 +108,8 @@ Example:
 ```
 ===
 
-=== Images : `{ [string]: { string } }`
+### Images
+=== `{ [string]: { string } }`
 A dictionary of banknote image asset IDs, used to visually represent the cash denominations dispensed by the ATM.  
 Each entry corresponds to a denomination (e.g. £10, £20, £50), and contains a pair of Roblox asset IDs representing the **front** and **back** of the note.
 
@@ -127,7 +131,7 @@ Heads up, remember always to include the `rbxassetid://` part.
 
 ===
 
-### Finalizing
+# Finalizing
 
 Now, using the examples provided, a complete module will look as follows:
 

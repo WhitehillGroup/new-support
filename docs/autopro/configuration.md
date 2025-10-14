@@ -76,11 +76,12 @@ local Settings = {
 return Settings
 ```
 
-### Syntax
+# Syntax
 
-#### General
+## General
 
-=== StartupMode : `"Normal" | "Hold" | "Exit" | "Lock"`
+### StartupMode
+=== `"Normal" | "Hold" | "Exit" | "Lock"`
 This will be the default mode of the doors upon game start.
 
 What do these mean?
@@ -101,7 +102,8 @@ Note: This isn't permanent, you can freely switch between those modes in-game by
 !!!
 ===
 
-=== OpenTime : `number`
+### OpenTime
+=== `number`
 Defines how long the door will stay open after opening, after this delay, the door will close.
 
 ---
@@ -114,9 +116,10 @@ Example:
 
 ---
 
-#### Sliding Doors
+## Sliding Doors
 
-=== MovementTime : `number`
+### MovementTime
+=== `number`
 How long will the door take to open/close when **winter mode** is **disabled**.
 
 ---
@@ -128,7 +131,7 @@ Example:
 
 ===
 
-=== WinterMovementTime : `number`
+=== `number`
 How long will the door take to open/close when **winter mode** is **enabled**.
 
 ---
@@ -140,7 +143,8 @@ Example:
 
 ===
 
-=== DoorEasingStyle : `Enum.EasingStyle`
+### DoorEasingStyle
+=== `Enum.EasingStyle`
 
 The [Easing Style](https://create.roblox.com/docs/reference/engine/enums/EasingStyle) to apply to the door during movement.
 
@@ -156,7 +160,8 @@ The Roblox Engine Reference doesn't help you understand Easing Styles? Check out
 !!!
 ===
 
-=== DoorEasingDirection : `Enum.EasingDirection`
+### DoorEasingDirection
+=== `Enum.EasingDirection`
 
 The [Easing Style](https://create.roblox.com/docs/reference/engine/enums/EasingDirection) to apply to the door during movement.
 
@@ -170,9 +175,10 @@ Example:
 
 ---
 
-#### Swing Doors
+## Swing Doors
 
-=== TargetAngle : `number`
+### TargetAngle
+=== `number`
 
 How far will the door open in degrees from its default position.
 
@@ -183,7 +189,8 @@ Example:
 ["Swing - TargetAngle"] = 95
 ```
 
-=== OpeningDoorSpeed: `number`
+### OpeningDoorSpeed
+=== `number`
 
 How long will the door take to open fully.
 
@@ -195,7 +202,8 @@ Example:
 ```
 ===
 
-=== ClosingDoorSpeed: `number`
+### ClosingDoorSpeed
+=== `number`
 
 How long will the door take to close fully.
 
@@ -209,13 +217,14 @@ Example:
 
 ---
 
-#### Custom Functions
+## Custom Functions
 
 !!!info
 This section is entirely skippable if you don't want to add any custom functionality to the doors themselves.
 !!!
 
-=== Open : `() -> ()`
+### Open
+=== `() -> ()`
 In this function you put **your own** additional functionality to happen when the door **opens**.
 
 --- 
@@ -230,7 +239,8 @@ end
 ```
 ===
 
-=== Close : `() -> ()`
+### Close
+=== `() -> ()`
 In this function you put **your own** additional functionality to happen when the door **closes**.
 
 --- 
@@ -247,9 +257,10 @@ end
 
 ---
 
-#### Whitelisting
+## Whitelisting
 
-=== AuthorisedPeople : `{ number }`
+### AuthorisedPeople
+=== `{ number }`
 A list of [User IDs](https://create.roblox.com/docs/reference/engine/classes/Player#UserId) to allow the use of the controller.
 
 ---
@@ -268,7 +279,8 @@ Users added to this table will be granted permission to **control the doors**. C
 
 ===
 
-=== AuthorisedGroups : `{ [string]: { number } }`
+### AuthorisedGroups
+=== `{ [string]: { number } }`
 A dictionary of Community IDs (formerly Group IDs), and their selected Rank IDs, to allow the use of the controller.
 
 ---
@@ -287,7 +299,7 @@ Ranks (and subsequently users with these ranks) added to this table will be gran
 
 ===
 
-### Finalizing
+# Finalizing
 
 Now, using the examples provided, a complete module will look as follows:
 

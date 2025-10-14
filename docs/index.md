@@ -16,7 +16,7 @@ authors:
 **Important:** This documentation is currently in the works. Some pages may be incomplete or subject to change. We appreciate your patience and understanding as we improve your experience.
 !!!
 
-Whitehill Support provides resources to help you troubleshoot, configure, and optimize our products and services.
+Whitehill Support provides resources to help you troubleshoot, configure, and optimize our products.
 
 You can browse guides, find answers to common questions, and access detailed product documentation, all organized for clarity and ease of navigation.
 

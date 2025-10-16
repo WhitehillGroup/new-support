@@ -13,6 +13,8 @@ authors:
 
 ![](/assets/banners/whg_apapi.png)
 
+Make the doors open by themselves. Or don't.
+
 !!!info
 This is a technical page, and assumes familiarity with Roblox Studio's Explorer, alongside with Roblox's scripting language, Luau.
 !!!

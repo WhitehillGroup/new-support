@@ -13,7 +13,7 @@ authors:
 
 ![](/assets/banners/whg_atmconfig.png)
 
-Want to customize your ATMs to your liking? This is the place.
+Want to customize your banknotes? This is the place.
 
 !!!warning
 This page assumes the user has basic knowledge of the Roblox scripting language, Luau.
@@ -61,7 +61,7 @@ The specified character will be used as a prefix to all monetary values wherever
 
 Example:
 ```lua
-["Currency"] = "€",
+["Currency"] = "€"
 ```
 
 !!!
@@ -77,7 +77,7 @@ This will be the amount that the ATM will charge for withdrawals. Set to `nil` t
 
 Example:
 ```lua
-["ATMCharge"] = 0.50,
+["ATMCharge"] = 0.50
 ```
 
 !!!warning
@@ -92,7 +92,7 @@ Should the green light on the card slot flash when idle?
 
 Example:
 ```lua
-["CardFlash"] = false,
+["CardFlash"] = false
 ```
 ===
 
@@ -104,7 +104,7 @@ Any number given will be the time required for the ATM to classify the interacti
 
 Example:
 ```lua
-["SecurityTimeout"] = 16,
+["SecurityTimeout"] = 16
 ```
 ===
 

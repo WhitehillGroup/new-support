@@ -211,7 +211,7 @@ How long will the door take to close fully.
 
 Example:
 ```lua
-["Swing - ClosingDoorSpeed"] = 1.75,
+["Swing - ClosingDoorSpeed"] = 1.75
 ```
 ===
 
@@ -289,7 +289,7 @@ Example:
 
 ```lua
 ["AuthorisedGroups"] = {
-	["123456789"] = {50, 150, 255},
+	["123456789"] = {50, 150, 255}
 }
 ```
 

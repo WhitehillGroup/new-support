@@ -1,0 +1,79 @@
+---
+icon: code
+label: API
+order: 85
+tags: [API]
+image: /assets/whg_headbanner.png
+authors: 
+    - name: roaxcean
+      link: https://github.com/roaxcean
+      avatar: https://avatars.githubusercontent.com/u/219159259
+---
+# SCO API
+
+![](/assets/banners/whg_apapi.png)
+
+What are the SCOs up to now?
+
+!!!info
+This is a technical page, and assumes familiarity with Roblox Studio's Explorer, alongside with Roblox's scripting language, Luau.
+!!!
+
+---
+
+Our Self Checkouts represent Whitehill's latest advancement in Self-Checkout technology. This page provides an overview of the `NetworkEvent` [BindableEvent](https://create.roblox.com/docs/reference/engine/classes/BindableEvent), and go over the `JSM-ExternalAPI` [BindableFunction](https://create.roblox.com/docs/reference/engine/classes/BindableFunction).
+
+## NetworkEvent
+
+Located directly in the root directory of the JSM Self Checkout, it is the primary way the checkout report their states, changes, and so on.
+
+The most basic script to get to know what the checkouts are up to is:
+```lua
+local NetworkEvent = script.Parent;
+
+NetworkEvent.Event:Connect(function (...: any): ()
+	print("JSM:", ...);
+end);
+```
+
+This will spit out all the data that is sent to the NetworkEvent, assuming the script is placed under it.
+
+---
+
+## JSM-ExternalAPI
+
+Located in the `Integrations` Folder, the ExternalAPI is only used to interface with the Scan & Shop.
+
+!!!warning
+For this to work, you need to set `AllowExternal` to `true` in your `SystemConfig` module (see [Configuration](/sco/configuration.md) for more info), otherwise the checkout will refuse to process your request.
+!!!
+
+The syntax is as follows:
+```lua
+workspace["JSM | SelfCheckout V3"].Integrations["JSM-ExternalAPI"]:Invoke(LaneNumber, Protocol, OEMInfo, ProductTable)
+```
+!!!light What do these mean?
+- **LaneNumber**: (`number`) The checkout lane to target.
+- **Protocol**: (`string`) Keep it as `"SAYSData"`, otherwise will refuse the request.
+- **OEMInfo**: (`string`) Your company/game name.
+- **ProductTable**: (`{ Tool }`) A list of `Tool`s to send to the checkout.
+!!!
+
+=== Example:
+```lua
+["JSM-ExternalAPI"]:Invoke(1, "SAYSData", "Whitehill", {Tool1, Tool2, Tool3})
+```
+===
+Where `Tool1`, `Tool2`, and `Tool3` are scannable JSM SCO product tools.
+
+!!!
+Something to keep in mind: The checkout **will move** the tools you pass to its own storage during the transaction, and then pass them to the `Player` who completes the transaction. It's worth to keep in mind that, if you plan on making a script to automatically pass item(s) to the checkout (etc.), always keep clones of the tools.
+!!!
+
+---
+
+!!!tip
+
+Something's unclear? Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via our [Discord server](https://discord.whitehill.group/) for further assistance.
+
+!!!

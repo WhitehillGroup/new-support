@@ -46,5 +46,5 @@ In case any errors occur, check the release notes in [**#product-updates**](http
 ---
 
 !!!success Updating Complete!
-Your ATMs have been updated, not working? Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via our [Discord server](https://discord.whitehill.group/) for further assistance.
+Your ATMs have been updated. Doesn't work? Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via our [Discord server](https://discord.whitehill.group/) for further assistance.
 !!!

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.814299520034">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.816644671059">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,12 +32,12 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.11.0.814299520034" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.816644671059" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.814299520034" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.816644671059" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.814299520034" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.814299520034" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.816644671059" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.816644671059" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -52,8 +52,11 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
-                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Whitehill Support</span>
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../assets/whg_logo_dark.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../assets/whg_logo.png">
+                            </span>
                         </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">NEW</span>
                     </div>
         
@@ -219,7 +222,7 @@
 </div>
 
 <p><figure class="content-center">
-    <img src="../../assets/banners/whg_apapi.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <img src="../../assets/banners/whg_scoapi.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -242,7 +245,7 @@
     </div>
 </div>
 <hr>
-<p>Our Self Checkouts represent Whitehill&#x27;s latest advancement in Self-Checkout technology. This page provides an overview of the <code v-pre>NetworkEvent</code> <a href="https://create.roblox.com/docs/reference/engine/classes/BindableEvent">BindableEvent</a>, and go over the <code v-pre>JSM-ExternalAPI</code> <a href="https://create.roblox.com/docs/reference/engine/classes/BindableFunction">BindableFunction</a>.</p>
+<p>Our Self Checkouts represent Whitehill&#x27;s latest advancement in Self-Checkout technology. This page provides an overview of the <code v-pre>NetworkEvent</code> <a href="https://create.roblox.com/docs/reference/engine/classes/BindableEvent">BindableEvent</a>, and go over the <code v-pre>JSM-ExternalAPI</code> <a href="https://create.roblox.com/docs/reference/engine/classes/BindableFunction">BindableFunction</a> as well as <code v-pre>JSM-BankIntegration</code> <a href="https://create.roblox.com/docs/reference/engine/classes/BindableFunction">BindableFunction</a>.</p>
 <doc-anchor-target id="networkevent">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#networkevent">#</doc-anchor-trigger>
@@ -254,11 +257,20 @@
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-lua"><code v-pre class="language-lua">local NetworkEvent = script.Parent;
 
-NetworkEvent.Event:Connect(function (...: any): ()
-	print(&quot;JSM:&quot;, ...);
+NetworkEvent.Event:Connect(function (Sender: string, LaneNumber: number, Command: string, Argument: any): ()
+	print(&quot;JSM:&quot;, Sender, LaneNumber, Command, Argument);
 end);</code></pre>
 </doc-codeblock></div>
 <p>This will spit out all the data that is sent to the NetworkEvent, assuming the script is placed under it.</p>
+<doc-panel id="the-usual-schema-of-it-is-as-follows">
+    <template #title>The usual schema of it is as follows:</template>
+<ul>
+<li><strong>Sender</strong>: (<code v-pre>string</code>) The object sending the command, mostly &quot;RemoteTerminal&quot; for SCO events.</li>
+<li><strong>LaneNumber</strong>: (<code v-pre>number</code>) Lane number of the object sending the event.</li>
+<li><strong>Command</strong>: (<code v-pre>string</code>) Command to fulfill or action that was taken.</li>
+<li><strong>Argument</strong>: (<code v-pre>any</code>) Anything, from numbers, to tables, and strings.</li>
+</ul>
+</doc-panel>
 <hr>
 <doc-anchor-target id="jsm-externalapi">
     <h2>
@@ -279,7 +291,7 @@ end);</code></pre>
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>For this to work, you need to set <code v-pre>AllowExternal</code> to <code v-pre>true</code> in your <code v-pre>SystemConfig</code> module (see <a href="/sco/configuration.md">Configuration</a> for more info), otherwise the checkout will refuse to process your request.</p>
+<p>For this to work, you need to set <code v-pre>AllowExternal</code> to <code v-pre>true</code> in your <code v-pre>SystemConfig</code> module (see <a href="../configuration/">Configuration</a> for more info), otherwise the checkout will refuse to process your request.</p>
         </div>
     </div>
 </div>
@@ -335,6 +347,81 @@ end);</code></pre>
     </div>
 </div>
 <hr>
+<doc-anchor-target id="jsm-bankintegration">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#jsm-bankintegration">#</doc-anchor-trigger>
+        <span>JSM-BankIntegration</span>
+    </h2>
+</doc-anchor-target>
+<p>Located in the <code v-pre>Integrations</code> Folder, the BankIntegration is used for checking the users balance, allowing you to integrate the SCOs into existing banking systems.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p><strong>Note:</strong> It&#x27;s not you to invoke this BindableFunction, the Checkouts will do it when processing contactless/card payments.</p>
+        </div>
+    </div>
+</div>
+<p>A barebones example is as follows:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-lua"><code v-pre class="language-lua">workspace[&quot;JSM | SelfCheckout V3&quot;].Integrations[&quot;JSM-BankIntegration&quot;].OnInvoke = function (Player: player, Amount: number): (bool)
+    -- Implement balance checks here.
+    
+    return true
+end</code></pre>
+</doc-codeblock></div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-light"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-light" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>What do these mean?</h5>
+<ul>
+<li><strong>Player</strong>: (<code v-pre>player</code>) The player we need to check.</li>
+<li><strong>Amount</strong>: (<code v-pre>number</code>) Payment price.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>What does it expect?</h5>
+<ul>
+<li><strong>If you <code v-pre>return true</code>:</strong> The checkout will proceed with the transaction.</li>
+<li><strong>If you <code v-pre>return false</code>:</strong> It will deny the transaction.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<hr>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-tip"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -373,6 +460,27 @@ end);</code></pre>
                                     </a>
                                 </div>
                             
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../sco/updating/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Updating</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../turnstiles/installation/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Installation</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
                             </footer>
                         </main>
                 

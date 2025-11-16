@@ -46,7 +46,7 @@ Any misplaced models **will not** work, keeping them in their respective folders
 While the ATM terminals are designed to work immediately, we recommend reviewing the configuration module found under `JSM | ATM V3` **->** `SystemConfig` to perfect your experience.
 
 !!!info
-For more information check out the [Configuration](/autopro/configuration.md) page.
+For more information check out the [Configuration](/atm/configuration.md) page.
 !!!
 ===
 

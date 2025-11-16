@@ -11,7 +11,7 @@ authors:
 ---
 # SCO API
 
-![](/assets/banners/whg_apapi.png)
+![](/assets/banners/whg_scoapi.png)
 
 What are the SCOs up to now?
 
@@ -21,7 +21,7 @@ This is a technical page, and assumes familiarity with Roblox Studio's Explorer,
 
 ---
 
-Our Self Checkouts represent Whitehill's latest advancement in Self-Checkout technology. This page provides an overview of the `NetworkEvent` [BindableEvent](https://create.roblox.com/docs/reference/engine/classes/BindableEvent), and go over the `JSM-ExternalAPI` [BindableFunction](https://create.roblox.com/docs/reference/engine/classes/BindableFunction).
+Our Self Checkouts represent Whitehill's latest advancement in Self-Checkout technology. This page provides an overview of the `NetworkEvent` [BindableEvent](https://create.roblox.com/docs/reference/engine/classes/BindableEvent), and go over the `JSM-ExternalAPI` [BindableFunction](https://create.roblox.com/docs/reference/engine/classes/BindableFunction) as well as `JSM-BankIntegration` [BindableFunction](https://create.roblox.com/docs/reference/engine/classes/BindableFunction).
 
 ## NetworkEvent
 
@@ -31,12 +31,19 @@ The most basic script to get to know what the checkouts are up to is:
 ```lua
 local NetworkEvent = script.Parent;
 
-NetworkEvent.Event:Connect(function (...: any): ()
-	print("JSM:", ...);
+NetworkEvent.Event:Connect(function (Sender: string, LaneNumber: number, Command: string, Argument: any): ()
+	print("JSM:", Sender, LaneNumber, Command, Argument);
 end);
 ```
 
 This will spit out all the data that is sent to the NetworkEvent, assuming the script is placed under it.
+
+=== The usual schema of it is as follows:
+- **Sender**: (`string`) The object sending the command, mostly "RemoteTerminal" for SCO events.
+- **LaneNumber**: (`number`) Lane number of the object sending the event.
+- **Command**: (`string`) Command to fulfill or action that was taken.
+- **Argument**: (`any`) Anything, from numbers, to tables, and strings.
+===
 
 ---
 
@@ -69,6 +76,35 @@ Where `Tool1`, `Tool2`, and `Tool3` are scannable JSM SCO product tools.
 !!!
 Something to keep in mind: The checkout **will move** the tools you pass to its own storage during the transaction, and then pass them to the `Player` who completes the transaction. It's worth to keep in mind that, if you plan on making a script to automatically pass item(s) to the checkout (etc.), always keep clones of the tools.
 !!!
+
+---
+
+## JSM-BankIntegration
+
+Located in the `Integrations` Folder, the BankIntegration is used for checking the users balance, allowing you to integrate the SCOs into existing banking systems.
+
+!!!
+**Note:** It's not you to invoke this BindableFunction, the Checkouts will do it when processing contactless/card payments.
+!!!
+
+A barebones example is as follows:
+```lua
+workspace["JSM | SelfCheckout V3"].Integrations["JSM-BankIntegration"].OnInvoke = function (Player: player, Amount: number): (bool)
+    -- Implement balance checks here.
+    
+    return true
+end
+```
+!!!light What do these mean?
+- **Player**: (`player`) The player we need to check.
+- **Amount**: (`number`) Payment price.
+!!!
+
+!!!info What does it expect?
+- **If you `return true`:** The checkout will proceed with the transaction.
+- **If you `return false`:** It will deny the transaction.
+!!!
+
 
 ---
 

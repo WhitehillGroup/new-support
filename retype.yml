@@ -4,7 +4,9 @@ output: .retype
 url: new-support.whitehill.group
 
 branding:
-  title: Whitehill Support
+#  title: Whitehill Support # not using since we have the logo
+  logo: /assets/whg_logo_dark.png
+  logoDark: /assets/whg_logo.png
   label: NEW
 
 links:

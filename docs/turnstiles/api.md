@@ -29,7 +29,7 @@ Located directly in the root folder **after game startup**, the API allows you t
 workspace["DWProx - KONE Turnstile 100 Single"].API:Fire(Event)
 ```
 !!!light What do these mean?
-- **Event**: (`string`) Function for the turnstile to execute.
+**Event**: (`string`) Function for the turnstile to execute.
 !!!
 Turnstiles's function list is as follows:
 - `"Normal"`: Normal mode of operation. Accepts card scans from both sides.

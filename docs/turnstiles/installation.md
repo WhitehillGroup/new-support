@@ -45,3 +45,11 @@ While the Turnstiles are designed to work immediately, we recommend reviewing th
 For more information check out the [Configuration](/turnstiles/configuration.md) page.
 !!!
 ===
+
+---
+
+!!!success Installation Complete!
+
+Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via our [Discord server](https://discord.whitehill.group/) for further assistance.
+
+!!!

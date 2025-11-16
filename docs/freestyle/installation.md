@@ -1,30 +1,59 @@
 ---
 icon: download
 label: Installation
-authors: 
-    - name: cbgle
-      link: https://github.com/cbgle
-      avatar: https://avatars.githubusercontent.com/u/126525625
+order: 100
+tags: [Installation]
+image: /assets/whg_headbanner.png
+authors:
+  - name: roaxcean
+    link: https://github.com/roaxcean
+    avatar: https://avatars.githubusercontent.com/u/219159259
 ---
-# Drinks Machines Installation
+# Freestyle Installation
 
+![](/assets/banners/whg_freestyleinstall.png)
+
+Flexible drinks dispenser, that's Freestyle.
+
+!!!info
+This product is in BETA, everything is subject to change.
+!!!
 !!!
 Before getting started, download the latest version of this product from [Axon](https://axon.whitehill.group).
 !!!
 !!!warning
 Ensure HTTP services are enabled before proceeding.
 This can be done by visiting _Home > Game Settings > Security_ within Studio.
-For more information visit [create.roblox.com](https://create.roblox.com/docs/studio/game-settings#security)
+For more information visit the Roblox [Creator Dashboard](https://create.roblox.com/docs/studio/game-settings#security).
 !!!
 
-1. To insert your file, drag the product file into Roblox Studio while your game is fully loaded. Alternatively, you can use the Explorer context menu: right-click and select _Insert > Insert From File_.
+---
 
-2. Copy the provided cup into 'ServerStorage'. This is used to create and give the filled drinks to customers.
+=== 1. Insert your file.
+To import your file, simply drag the product file into Roblox Studio once your game is fully loaded.
+Alternatively, you can use the Explorer context menu by right-clicking and selecting **Insert > Insert From File**.
+===
+
+=== 2. Placement & Positioning.
+You are free to move, rotate and scale the Freestyle model to your liking. Then place the _Empty Cup_ [`Tool`](https://create.roblox.com/docs/reference/engine/classes/Tool) into [`ServerStorage`](https://create.roblox.com/docs/reference/engine/classes/ServerStorage) for the machines to work.
+
+!!!info
+Freestyle machines don't require to be placed in a folder to work, thus enabling you to place them in your own desired location.
+!!!
+===
+
+=== 3. Configure your ATMs.
+While the Freestyle machines are designed to work immediately, we recommend reviewing the configuration module found under `JSM | Freestyle Drinks Machine` **->** `Controller` **->** `DrinkData` to perfect your experience.
+
+!!!info
+For more information check out the [Configuration](/freestyle/configuration.md) page.
+!!!
+===
+
+---
 
 !!!success Installation Complete!
-Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](/faq.md) for help.
-!!!
 
-!!!light 
-By modifying the UI as well as the DrinkData script you can change the machine to dispense any drink. 
+Not working? Make sure you've followed all the steps correctly, or visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via our [Discord server](https://discord.whitehill.group/) for further assistance.
+
 !!!

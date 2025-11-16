@@ -56,7 +56,7 @@ return Settings
 ## General
 
 ### Cards
-===`{string}`
+=== `{string}`
 A list of Card IDs to allow to open the turnstile.
 
 ---

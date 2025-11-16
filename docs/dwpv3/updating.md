@@ -1,15 +1,15 @@
 ---
-icon: download
-label: Installation
-order: 100
-#tags: [Installation]
+icon: check-circle
+label: Updating
+order: 90
+#tags: [Updating]
 image: /assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
 ---
-# DWProx V3 Installation
+# Updating DWProx V3
 
 ![](/assets/headbanners/whg_notyet.png)
 

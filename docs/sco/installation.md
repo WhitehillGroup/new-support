@@ -40,10 +40,10 @@ Any misplaced terminals **will not** work, keeping them in their respective fold
 ===
 
 === 3. Configure your Self Checkouts.
-While the ATM terminals are designed to work immediately, we recommend reviewing the configuration module found under `JSM | ATM V3` **->** `SystemConfig` to perfect your experience.
+While the SCO terminals are designed to work immediately, we recommend reviewing the configuration module found under `JSM | SelfCheckout V3` **->** `SystemConfig` to perfect your experience.
 
 !!!info
-For more information check out the [Configuration](/autopro/configuration.md) page.
+For more information check out the [Configuration](/sco/configuration.md) page.
 !!!
 ===
 

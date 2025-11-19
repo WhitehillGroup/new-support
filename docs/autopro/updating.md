@@ -45,7 +45,7 @@ It's important to take the new script from the same controller as your existing 
 ===
 
 === Step 3 - Test
-After updating, confirm that the ATM boots without throwing any errors to the Console.
+After updating, confirm that the AutoPro boots and functions without throwing any errors to the Console.
 
 !!!
 In case any errors occur, check the release notes in [**#product-updates**](https://ptb.discord.com/channels/616745092279173151/1169430975911043212) for any special instructions.

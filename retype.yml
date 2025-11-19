@@ -49,3 +49,7 @@ footer:
       link: https://discord.whitehill.group/
       icon: comment-discussion
       target: blank
+
+    - text: Terms Of Use
+      link: /terms.md
+      icon: book

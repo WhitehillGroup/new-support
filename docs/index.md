@@ -1,5 +1,5 @@
 ---
-icon: sparkles-fill
+icon: sparkle
 label: Welcome!
 tags: [Overview]
 image: /assets/whg_headbanner.png
@@ -24,4 +24,7 @@ You can browse guides, find answers to common questions, and access detailed pro
 
 !!!info Need assistance?
 Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via Discord for assistance.
+!!!
+!!!light
+Be sure to check out our [Terms Of Use](/terms.md) before buying any of our products.
 !!!

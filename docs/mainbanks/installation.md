@@ -1,20 +1,28 @@
 ---
 icon: download
 label: Installation
-order: 100
-#tags: [Installation]
-image: /assets/whg_headbanner.png
-authors:
-  - name: roaxcean
-    link: https://github.com/roaxcean
-    avatar: https://avatars.githubusercontent.com/u/219159259
+authors: 
+    - name: NotAlex7331
+      link: https://github.com/NotAlex7331
+      avatar: https://avatars.githubusercontent.com/u/8365663
+    - name: roaxcean
+      link: https://github.com/roaxcean
+      avatar: https://avatars.githubusercontent.com/u/219159259
 ---
 # RetailPOS Mainbanks Installation
 
-![](/assets/headbanners/whg_notyet.png)
+![](/assets/banners/whg_mainbanksinstall.png)
 
-!!!warning
-You do realize this hasn't yet released? How did you even end up here!
+!!!danger Important Notice
+This product has been discontinued and is no longer supported. The information provided may be incomplete or outdated. Please refrain from contacting support regarding this product, as dedicated assistance is no longer available.
 !!!
 
 ---
+
+[!embed allowFullScreen="false"](https://www.youtube.com/embed/njmw1dZgn1g)
+
+---
+
+!!!ghost That's all we have.
+We searched far in our archives, but this is all we got for this discontinued product.
+!!!

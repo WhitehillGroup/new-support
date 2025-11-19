@@ -3,7 +3,7 @@ icon: info
 label: FAQ
 tags: [Overview]
 image: /assets/whg_headbanner.png
-order: 99
+order: 98
 authors:
   - name: cbgle
     link: https://github.com/cbgle
@@ -51,6 +51,6 @@ There are two possible reasons:
 2. You've tampered with your product, which triggered DWPSS protection. If this occurred, please open a support ticket for assistance. 
 ===
 
-!!!question
-Question not answered? Visit the support page for the product you're having trouble with, or contact our support team via our [Discord server](https://discord.whitehill.group/).
+!!!question Question not answered?
+Visit the support page for the product you're having trouble with, or contact our support team via our [Discord server](https://discord.whitehill.group/).
 !!!

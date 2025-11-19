@@ -757,6 +757,10 @@ This feature is not available yet.
 
 ## Scan&ShopSettings
 
+!!!warning
+Note: These settings apply **only** if Scan & Shop is installed.
+!!!
+
 === **TerminalSettings**
 
 ### IdleMessage

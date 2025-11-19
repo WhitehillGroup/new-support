@@ -31,12 +31,12 @@ In case anything goes south, you will always have a restore point.
 ===
 
 === Step 2 - Updating
-- From the fresh copy of JSM ATM, copy the `Deploy` script. (Inside `JSM | ATM V3`)
+- From the fresh copy of JSM SCO, copy the `Deploy` script. (Inside `JSM | SelfCheckout V3`)
 - In your existing installation, delete the old `Deploy` script, and paste in the new `Deploy` script.
-  ===
+===
 
 === Step 3 - Test
-After updating, confirm that the Self Checkouts boot and functions without throwing any errors to the Console.
+After updating, confirm that the Self Checkouts boot and function without throwing any errors to the Console.
 
 !!!
 In case any errors occur, check the release notes in [**#product-updates**](https://ptb.discord.com/channels/616745092279173151/1169430975911043212) for any special instructions.

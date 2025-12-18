@@ -2,12 +2,8 @@
 icon: download
 label: Installation
 authors: 
-    - name: NotAlex7331
-      link: https://github.com/NotAlex7331
-      avatar: https://avatars.githubusercontent.com/u/8365663
-    - name: roaxcean
-      link: https://github.com/roaxcean
-      avatar: https://avatars.githubusercontent.com/u/219159259
+  - name: Whitehill
+    avatar: /assets/whg_profile.png
 ---
 # RetailPOS Mainbanks Installation
 

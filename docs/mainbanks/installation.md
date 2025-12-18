@@ -19,10 +19,6 @@ This product has been discontinued and is no longer supported. The information p
 
 ---
 
-[!embed allowFullScreen="false"](https://www.youtube.com/embed/njmw1dZgn1g)
-
----
-
 !!!ghost That's all we have.
 We searched far in our archives, but this is all we got for this discontinued product.
 !!!

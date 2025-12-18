@@ -51,9 +51,9 @@ local Settings = {
 return Settings
 ```
 
-# Syntax
+---
 
-## General
+## General Settings
 
 ### Cards
 === `{string}`
@@ -208,7 +208,8 @@ Example:
 ===
 
 ---
-# Finalizing
+
+## Finalizing
 
 Now, using the examples provided, a complete module will look as follows:
 

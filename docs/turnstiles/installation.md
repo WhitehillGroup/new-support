@@ -27,7 +27,7 @@ For more information visit the Roblox [Creator Dashboard](https://create.roblox.
 ---
 
 === 1. Insert your file.
-This product doesn't use Axon licensing, meaning it can be inserted via [Toolbox](https://create.roblox.com/store/asset/6821432149/KONE-Turnstiles) directly in Studio.
+This product doesn't use Axon licensing, it means it can be inserted via [Toolbox](https://create.roblox.com/store/asset/6821432149/KONE-Turnstiles) directly in Studio.
 ===
 
 === 2. Placement & Positioning.

@@ -127,7 +127,9 @@ local Data = {
 return Data
 ```
 
-# Syntax
+---
+
+## Syntax
 
 ### DrinkX
 === `table`
@@ -192,7 +194,7 @@ DisplayName = "Cherry"
 
 === `Color3`
 Defines UI tinting for the drink or flavour.
-Use `Color3.fromRGB(r,g,b)` values only.
+Use [`Color3`](https://create.roblox.com/docs/reference/engine/datatypes/Color3) values only.
 
 ---
 
@@ -223,7 +225,9 @@ Invalid or empty image IDs will break flavour selection thumbnails.
 !!!
 ===
 
-# Finalizing
+---
+
+## Finalizing
 
 Now, using the examples provided, a complete module will look as follows:
 

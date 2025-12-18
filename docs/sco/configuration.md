@@ -150,7 +150,9 @@ local Settings = {
 return Settings
 ```
 
-# Syntax
+---
+
+## Syntax
 
 ### UITheme
 === `string`

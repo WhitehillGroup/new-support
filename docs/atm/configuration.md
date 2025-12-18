@@ -51,7 +51,7 @@ local Settings = {
 return Settings
 ```
 
-# Syntax
+## Syntax
 
 ### Currency
 === `string`
@@ -85,7 +85,8 @@ Heads up, update your ATM UI to reflect the cost of withdrawals.
 !!!
 ===
 
-=== CardFlash : `bool`
+### CardFlash
+=== `bool`
 Should the green light on the card slot flash when idle?
 
 ---
@@ -131,7 +132,9 @@ Heads up, remember always to include the `rbxassetid://` part.
 
 ===
 
-# Finalizing
+---
+
+## Finalizing
 
 Now, using the examples provided, a complete module will look as follows:
 

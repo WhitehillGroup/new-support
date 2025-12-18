@@ -13,13 +13,13 @@ authors:
 
 ![](/assets/banners/whg_easconfig.png)
 
+Mini-modding right here.
+
 !!!warning
-This page isn't ready... How did you even end up here!
+This page assumes the user has basic knowledge of the Roblox scripting language, Luau.
 !!!
 
 ---
-
-# Syntax
 
 ## SystemConfig
 
@@ -130,7 +130,9 @@ Example:
 For a detailed guide, see SelfServ SCO [Accounts Configuration](/sco/accounts.md) page. The EAS Accounts and SCO Accounts are identical.
 !!!
 
-# Finalizing
+---
+
+## Finalizing
 
 Now, using the examples provided, a complete `Settings` module will look as follows:
 

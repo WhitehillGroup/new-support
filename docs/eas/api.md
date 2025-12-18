@@ -13,7 +13,7 @@ authors:
 
 ![](/assets/banners/whg_easapi.png)
 
-Get shoplifter data, or post your own.
+Beep-beep-beep, who stole something!?
 
 !!!info
 This is a technical page, and assumes familiarity with Roblox Studio's Explorer, alongside with Roblox's scripting language, Luau.

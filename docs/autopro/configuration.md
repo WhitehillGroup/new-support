@@ -76,7 +76,7 @@ local Settings = {
 return Settings
 ```
 
-# Syntax
+---
 
 ## General
 
@@ -299,7 +299,9 @@ Ranks (and subsequently users with these ranks) added to this table will be gran
 
 ===
 
-# Finalizing
+---
+
+## Finalizing
 
 Now, using the examples provided, a complete module will look as follows:
 

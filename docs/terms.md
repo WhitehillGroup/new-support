@@ -58,6 +58,22 @@ The distribution of custom UI themes is permitted, as well as the distribution o
 
 ---
 
+## Refund Terms
+
+=== Stripe Purchases
+
+Purchases made via Stripe using real currency are eligible for refund within 30 days of the purchase date. 
+After this period, refunds are not possible due to Stripe's policies.
+
+=== Robux Purchases
+
+Pursuant to Roblox's User and Creator Terms of Use, all purchases made with Robux are final, non-refundable, and non-reversible unless Roblox intervenes directly. 
+Whitehill Group, as the developer, is not authorized to process refunds for Robux purchases under any circumstances.
+
+===
+
+---
+
 !!!question Something unclear?
 Contact our support team via our [Discord server](https://discord.whitehill.group/) and we'll be more than happy to resolve your issue.
 !!!

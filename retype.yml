@@ -49,6 +49,11 @@ footer:
       link: https://discord.whitehill.group/
       icon: comment-discussion
       target: blank
+    
+    - text: Group
+      link: https://www.roblox.com/communities/5150453
+      icon: people
+      target: blank
       
     - text: Terms Of Use
       link: /terms.md

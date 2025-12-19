@@ -3,7 +3,7 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: cbgle
     link: https://github.com/cbgle
@@ -11,10 +11,13 @@ authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - JSM
+  - SelfServ ATM
 ---
 # SelfServ ATM Installation
 
-![](/assets/banners/whg_atminstall.png)
+![](/static/assets/banners/whg_atminstall.png)
 
 JSM ATM, now with 3 different terminals and additional features. Our best ATM system to-date, and a must-have for the JSM SCO owners.
 

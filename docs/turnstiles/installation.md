@@ -3,15 +3,19 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - KONE Turnstiles
 ---
 # KONE Turnstiles Installation
 
-![](/assets/banners/whg_turnstilesinstall.png)
+![](/static/assets/banners/whg_turnstilesinstall.png)
 
 Turnstiles made to last. Effectiveness in simplicity.
 

@@ -3,15 +3,19 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - Net2+
 ---
 # Installing Net2+
 
-![](/assets/banners/whg_net2install.png)
+![](/static/assets/banners/whg_net2install.png)
 
 Our most advanced Access Control System.
 

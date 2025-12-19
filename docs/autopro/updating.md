@@ -3,15 +3,18 @@ icon: check-circle
 label: Updating
 order: 90
 tags: [Updating]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - AutoPro
 ---
 # Updating Your AutoPro
 
-![](/assets/banners/whg_apupdate.png)
+![](/static/assets/banners/whg_apupdate.png)
 
 Keep your doors opening, keep them updated.
 

@@ -5,11 +5,11 @@ url: support.whitehill.group
 
 branding:
 #  title: Whitehill Support # not using since we have the logo
-  logo: /assets/whg_logo_dark.png
-  logoDark: /assets/whg_logo.png
+  logo: /static/assets/whg_logo_dark.png
+  logoDark: /static/assets/whg_logo.png
 
 links:
-  - text: Axon
+  - text: Axon Portal
     link: https://axon.whitehill.group
     icon: desktop-download
     target: blank
@@ -19,6 +19,11 @@ links:
     icon: comment-discussion
     target: blank
 
+  - text: Roblox Group
+    link: https://www.roblox.com/communities/5150453
+    icon: people
+    target: blank
+
 edit:
   repo: "https://github.com/WhitehillGroup/support/edit/"
 
@@ -26,7 +31,7 @@ meta:
   title: " | Whitehill Support"
 
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  copyright: "&copy; {{ year }} Whitehill Group & Contributors." # legal nightmare
 
   links:
     - text: Service Status
@@ -37,21 +42,6 @@ footer:
     - text: Contribute
       link: https://github.com/WhitehillGroup/support
       icon: mark-github
-      target: blank
-
-    - text: Axon
-      link: https://axon.whitehill.group/
-      icon: package
-      target: blank
-
-    - text: Discord
-      link: https://discord.whitehill.group/
-      icon: comment-discussion
-      target: blank
-    
-    - text: Group
-      link: https://www.roblox.com/communities/5150453
-      icon: people
       target: blank
       
     - text: Terms Of Use

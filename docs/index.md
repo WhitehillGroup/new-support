@@ -2,25 +2,29 @@
 icon: sparkle
 label: Welcome!
 tags: [Overview]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 order: 100
 authors:
   - name: Whitehill
-    avatar: /assets/whg_profile.png
+    avatar: /static/assets/whg_profile.png
 ---
 # Welcome to Whitehill Support!
 
-![](/assets/whg_banner.png)
+![](/static/assets/whg_banner.png)
 
-Whitehill Support provides resources to help you troubleshoot, configure, and optimize our products.
+:::textbox
+Whitehill Support provides resources to help you troubleshoot, configure, and install our products.
 
-You can browse guides, find answers to common questions, and access detailed product documentation, all organized for clarity and ease of navigation.
+You can browse guides, find answers to common questions, and access detailed product documentation,
+all organized for clarity and ease of navigation.
+:::
 
 ---
 
 !!!info Need assistance?
 Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via Discord for assistance.
 !!!
-!!!light
+
+!!!warning Before purchasing...
 Be sure to check out our [Terms Of Use](/terms.md) before buying any of our products.
 !!!

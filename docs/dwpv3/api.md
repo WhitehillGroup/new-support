@@ -3,15 +3,19 @@ icon: code
 label: API
 order: 85
 tags: [API]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - V3
 ---
 # V3 API
 
-![](/assets/banners/whg_v3api.png)
+![](/static/assets/banners/whg_v3api.png)
 
 Control madness? Check.
 

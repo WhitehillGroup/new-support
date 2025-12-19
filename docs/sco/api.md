@@ -3,15 +3,18 @@ icon: code
 label: API
 order: 85
 tags: [API]
-image: /assets/whg_headbanner.png
-authors: 
-    - name: roaxcean
-      link: https://github.com/roaxcean
-      avatar: https://avatars.githubusercontent.com/u/219159259
+image: /static/assets/whg_headbanner.png
+authors:
+  - name: roaxcean
+    link: https://github.com/roaxcean
+    avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - JSM
+  - SelfServ SCO
 ---
 # SCO API
 
-![](/assets/banners/whg_scoapi.png)
+![](/static/assets/banners/whg_scoapi.png)
 
 What are the SCOs up to now?
 

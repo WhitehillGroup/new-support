@@ -3,15 +3,18 @@ icon: tools
 label: Configuration
 order: 95
 tags: [Configuration]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - AutoPro
 ---
 # Configuring Your AutoPro
 
-![](/assets/banners/whg_apconfig.png)
+![](/static/assets/banners/whg_apconfig.png)
 
 Need your doors open faster? Yes, we have that.
 

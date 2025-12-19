@@ -3,15 +3,19 @@ icon: tools
 label: Configuration
 order: 95
 tags: [Configuration]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - KONE Turnstiles
 ---
-# Configuring Your AutoPro
+# Configuring Your Turnstiles
 
-![](/assets/banners/whg_turnstilesconfig.png)
+![](/static/assets/banners/whg_turnstilesconfig.png)
 
 Make them call a lift, or change which card is authorized... Among others!
 

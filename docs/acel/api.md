@@ -3,15 +3,18 @@ icon: code
 label: API
 order: 85
 tags: [API]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - Acel AOV
 ---
 # Acel AOV API
 
-![](/assets/banners/whg_acelapi.png)
+![](/static/assets/banners/whg_acelapi.png)
 
 !!!danger Important Notice
 This product has been discontinued and is no longer supported. The information provided may be incomplete or outdated. Please refrain from contacting support regarding this product, as dedicated assistance is no longer available.

@@ -3,7 +3,7 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: cbgle
     link: https://github.com/cbgle
@@ -11,10 +11,13 @@ authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - AutoPro
 ---
 # AutoPro Installation
 
-![](/assets/banners/whg_apinstall.png)
+![](/static/assets/banners/whg_apinstall.png)
 
 AutoPro, an automatic door system designed for convenience and efficiency, providing seamless access control for any environment.
 

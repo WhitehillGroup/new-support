@@ -3,15 +3,18 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - Acel AOV
 ---
 # Acel AOV Installation
 
-![](/assets/banners/whg_acelinstall.png)
+![](/static/assets/banners/whg_acelinstall.png)
 
 !!!danger Important Notice
 This product has been discontinued and is no longer supported. The information provided may be incomplete or outdated. Please refrain from contacting support regarding this product, as dedicated assistance is no longer available.

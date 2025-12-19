@@ -3,15 +3,18 @@ icon: code
 label: API
 order: 85
 tags: [API]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - JSM
+  - Intelli-Sense EAS
 ---
 # Intelli-Sense EAS API
 
-![](/assets/banners/whg_easapi.png)
+![](/static/assets/banners/whg_easapi.png)
 
 Beep-beep-beep, who stole something!?
 

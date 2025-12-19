@@ -1,6 +1,8 @@
 ---
 icon: download
 label: Installation
+tags: [Installation]
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: cbgle
       link: https://github.com/cbgle
@@ -8,10 +10,14 @@ authors:
     - name: NotAlex7331
       link: https://github.com/NotAlex7331
       avatar: https://avatars.githubusercontent.com/u/8365663
+categories:
+  - JSM
+  - CafePOS
+  - Lite
 ---
 # CafePOS Lite Installation
 
-![](/assets/banners/whg_cafeposliteinstall.png)
+![](/static/assets/banners/whg_cafeposliteinstall.png)
 
 !!!danger Important Notice
 This product has been discontinued and is no longer supported. The information provided may be incomplete or outdated. Please refrain from contacting support regarding this product, as dedicated assistance is no longer available.

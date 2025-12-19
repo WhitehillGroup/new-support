@@ -2,7 +2,7 @@
 icon: info
 label: FAQ
 tags: [Overview]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 order: 98
 authors:
   - name: cbgle
@@ -17,7 +17,7 @@ authors:
 ---
 # Frequently Asked Questions
 
-![](/assets/banners/whg_faq.png)
+![](/static/assets/banners/whg_faq.png)
 
 Check out our frequently asked questions, the answer you're looking for might already be here.
 

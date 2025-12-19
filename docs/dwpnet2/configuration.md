@@ -3,15 +3,19 @@ icon: tools
 label: Configuration
 order: 95
 tags: [Configuration]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - Net2+
 ---
 # Configuring Your Net2+
 
-![](/assets/banners/whg_net2config.png)
+![](/static/assets/banners/whg_net2config.png)
 
 Welcome to customization heaven. (#2)
 

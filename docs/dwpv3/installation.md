@@ -3,7 +3,7 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
@@ -11,10 +11,14 @@ authors:
   - name: cbgle
     link: https://github.com/cbgle
     avatar: https://avatars.githubusercontent.com/u/126525625
+categories:
+  - Whitehill
+  - DWProx
+  - V3
 ---
 # DWProx V3 Installation
 
-![](/assets/banners/whg_v3install.png)
+![](/static/assets/banners/whg_v3install.png)
 
 Our free Access Control System.
 

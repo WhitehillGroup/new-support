@@ -3,15 +3,18 @@ icon: tools
 label: Configuration
 order: 95
 tags: [Configuration]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - JSM
+  - Intelli-Sense EAS
 ---
 # Configuring Your EAS
 
-![](/assets/banners/whg_easconfig.png)
+![](/static/assets/banners/whg_easconfig.png)
 
 Mini-modding right here.
 

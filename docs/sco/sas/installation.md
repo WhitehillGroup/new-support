@@ -3,15 +3,19 @@ icon: download
 label: Installation
 order: 100
 tags: [Installation]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - JSM
+  - SelfServ SCO
+  - Scan & Shop
 ---
 # Scan & Shop Installation
 
-![](/assets/banners/whg_sasinstall.png)
+![](/static/assets/banners/whg_sasinstall.png)
 
 Elevate your Self Checkout experience with Scan & Shop.
 

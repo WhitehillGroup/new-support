@@ -3,15 +3,19 @@ icon: code
 label: API
 order: 85
 tags: [API]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - KONE Turnstiles
 ---
 # KONE Turnstiles API
 
-![](/assets/banners/whg_turnstilesapi.png)
+![](/static/assets/banners/whg_turnstilesapi.png)
 
 Can you lock the turnstiles? After the alarm goes off? And easily? Yes, yes, and yes!
 

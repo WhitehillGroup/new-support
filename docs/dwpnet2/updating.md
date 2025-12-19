@@ -3,15 +3,19 @@ icon: check-circle
 label: Updating
 order: 90
 tags: [Updating]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - Whitehill
+  - DWProx
+  - Net2+
 ---
 # Updating Your Net2+
 
-![](/assets/banners/whg_net2update.png)
+![](/static/assets/banners/whg_net2update.png)
 
 Keep the doors from closing in on you.
 

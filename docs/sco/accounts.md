@@ -3,15 +3,18 @@ icon: tools
 label: Accounts
 order: 94
 tags: [Configuration]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 authors: 
     - name: roaxcean
       link: https://github.com/roaxcean
       avatar: https://avatars.githubusercontent.com/u/219159259
+categories:
+  - JSM
+  - SelfServ SCO
 ---
 # Configuring Your SCO Accounts
 
-![](/assets/banners/whg_scoconfig.png)
+![](/static/assets/banners/whg_scoconfig.png)
 
 Welcome to customization heaven.
 

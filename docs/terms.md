@@ -2,15 +2,15 @@
 icon: book
 label: Terms Of Use
 tags: [Overview]
-image: /assets/whg_headbanner.png
+image: /static/assets/whg_headbanner.png
 order: 99
 authors:
   - name: Whitehill
-    avatar: /assets/whg_profile.png
+    avatar: /static/assets/whg_profile.png
 ---
 # Terms Of Use
 
-![](/assets/banners/whg_tou.png)
+![](/static/assets/banners/whg_tou.png)
 
 What you can, and what you can't.
 

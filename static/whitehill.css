@@ -1,0 +1,21 @@
+/* global css */
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--callout-base-border);
+    border-radius: .5rem;
+    background-color: var(--callout-base-bg);
+}
+
+.textbox p:last-child {
+    margin-bottom: 0;
+}

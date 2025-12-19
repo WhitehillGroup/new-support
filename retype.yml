@@ -1,13 +1,12 @@
 input: ./docs
 output: .retype
 
-url: new-support.whitehill.group
+url: support.whitehill.group
 
 branding:
 #  title: Whitehill Support # not using since we have the logo
   logo: /assets/whg_logo_dark.png
   logoDark: /assets/whg_logo.png
-  label: NEW
 
 links:
   - text: Axon
@@ -21,7 +20,7 @@ links:
     target: blank
 
 edit:
-  repo: "https://github.com/WhitehillGroup/new-support/edit/"
+  repo: "https://github.com/WhitehillGroup/support/edit/"
 
 meta:
   title: " | Whitehill Support"

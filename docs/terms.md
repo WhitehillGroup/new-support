@@ -62,8 +62,7 @@ The distribution of custom UI themes is permitted, as well as the distribution o
 
 === Stripe Purchases
 
-Purchases made via Stripe using real currency are eligible for refund within 30 days of the purchase date. 
-After this period, refunds are not possible due to Stripe's policies.
+Purchases made via Stripe using real currency are eligible for refund for any reason within 30 days of the purchase date. 
 
 === Robux Purchases
 

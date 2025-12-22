@@ -47,7 +47,7 @@ Yes. Each product includes one example item to demonstrate setup and configurati
 
 ==- Why am I being kicked with the message "DWPSS has detected you are using counterfeit products"?
 There are two possible reasons:
-1. You're using an outdated version of **DWProx Net2+**, **SCO v3**, or **Scan & Shop** released prior to **26/01/24**. Update your products via [Axon](https://axon.whitehill.group) to resolve the issue. See [this message](https://discord.com/channels/616745092279173151/1169430086500491375/1200237894430892072) in our [Discord server](https://discord.whitehill.group/) for detailed update instructions.
+1. You're using an outdated version of **DWProx Net2+**, **SCO v3**, or **Scan & Shop** released prior to **26/01/24**. Update your products via [Axon](https://axon.whitehill.group) to resolve the issue. See [this guide](https://whitehillgroup-my.sharepoint.com/:w:/g/personal/alex_whitehill_group/IQAhh2SHdCKITqt-WpNbw_KuAYiQVG8lMdJVHX4WCbnGldk) for detailed update instructions.
 2. You've tampered with your product, which triggered DWPSS protection. If this occurred, please open a support ticket for assistance. 
 ===
 

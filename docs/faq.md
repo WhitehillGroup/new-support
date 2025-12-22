@@ -14,6 +14,9 @@ authors:
   - name: roaxcean
     link: https://github.com/roaxcean
     avatar: https://avatars.githubusercontent.com/u/219159259
+  - name: NotAlex7331
+    link: https://github.com/NotAlex7331
+    avatar: https://avatars.githubusercontent.com/u/8365663
 ---
 # Frequently Asked Questions
 

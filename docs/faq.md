@@ -17,6 +17,9 @@ authors:
   - name: NotAlex7331
     link: https://github.com/NotAlex7331
     avatar: https://avatars.githubusercontent.com/u/8365663
+  - name: ThatNemusy
+    link: https://github.com/ThatNemusy
+    avatar: https://avatars.githubusercontent.com/u/95968788
 ---
 # Frequently Asked Questions
 
@@ -27,8 +30,11 @@ Check out our frequently asked questions, the answer you're looking for might al
 ==- How can I access my products?
 You can purchase and download all of our products easily through our user-friendly dashboard. Visit [Axon](https://axon.whitehill.group) to get started.
 
-==- Can I purchase products without using Robux?
-Yes! All purchases can be made through [Axon](https://axon.whitehill.group).
+==- How can I purchase Whitehill/JSM/DWProx products?
+You can purchase our products by going to [Axon](https://axon.whitehill.group) for GBP payments, or by going to our [ePortal Game](https://www.roblox.com/games/13188104119/Whitehill-ePortal) for Robux Payments. However, please note that GBP payments are cheaper than Robux payments.
+
+==- What does Pre Order means?
+It means that the product is not available to be downloaded by customers, and it can be because it's in development. It is usually pre-order when the product's development progress is not completed yet. 
 
 ==- Do you offer product transfers?
 Yes. We've introduced product transfers through [Axon](https://axon.whitehill.group), allowing you greater flexibility and control over how and where you use your products.
@@ -51,7 +57,11 @@ Yes. Each product includes one example item to demonstrate setup and configurati
 ==- Why am I being kicked with the message "DWPSS has detected you are using counterfeit products"?
 There are two possible reasons:
 1. You're using an outdated version of **DWProx Net2+**, **SCO v3**, or **Scan & Shop** released prior to **26/01/24**. Update your products via [Axon](https://axon.whitehill.group) to resolve the issue. See [this guide](https://whitehillgroup-my.sharepoint.com/:w:/g/personal/alex_whitehill_group/IQAhh2SHdCKITqt-WpNbw_KuAYiQVG8lMdJVHX4WCbnGldk) for detailed update instructions.
-2. You've tampered with your product, which triggered DWPSS protection. If this occurred, please open a support ticket for assistance. 
+2. You've tampered with your product, which triggered DWPSS protection. If this occurred, please open a support ticket for assistance.
+
+==- Why can't I buy CafePOS lite any more?
+We have disabled the sales for the product and the product is not available to be purchased for new customers and customers that hasn't had this licence before. Do not worry, as the development team is working on a better version of CafePOS, which will also include more features such as kiosks. 
+Any existing product holders can still download the product and use it normally, however the support for that product is less likely.
 ===
 
 !!!question Question not answered?

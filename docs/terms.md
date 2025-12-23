@@ -41,6 +41,10 @@ You agree not to use the JSM, Whitehill or DWProx logo on any product not manufa
 The UI logo must remain intact. The machine chassis may be rebranded only to match your game’s theme, not to represent your own company or brand identity.
 !!!
 
+=== Custom UIs Restrictions
+
+You agree not to attempt to modify the UIs that's not permitted (also usually not included in the template), such as Store Authorisation UI or the boot UI (this applies to all products that has boot screens, usually it can be configured).
+
 === Asset Usage Restrictions
 
 You agree not to use any assets supplied with our products in any external models, projects, or products not manufactured 

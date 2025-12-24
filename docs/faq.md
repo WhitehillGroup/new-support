@@ -34,7 +34,7 @@ You can purchase and download all of our products easily through our user-friend
 You can purchase our products by going to [Axon](https://axon.whitehill.group) for GBP payments, or by going to our [ePortal Game](https://www.roblox.com/games/13188104119/Whitehill-ePortal) for Robux Payments. However, please note that GBP payments are cheaper than Robux payments.
 
 ==- What does Pre Order means?
-It means that the product is not available to be downloaded by customers, and it can be because it's in development. It is usually pre-order when the product's development progress is not completed yet. 
+It means that the product is not available to be downloaded by customers, it can be a pre-order if the product's development is not completed fully. It is usually pre-order when the product's development progress is not completed yet. 
 
 ==- Do you offer product transfers?
 Yes. We've introduced product transfers through [Axon](https://axon.whitehill.group), allowing you greater flexibility and control over how and where you use your products.
